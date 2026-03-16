@@ -1,97 +1,20 @@
+aid: outils-digitaux
 name: Outils Digitaux
-description: A comprehensive collection of digital tools and APIs for developers, designers, and digital professionals
-image: https://outilsdigitaux.com/logo.png
-url: https://outilsdigitaux.com
-created: '2024-01-01'
-modified: '2024-01-01'
-apis:
-- name: Digital Tools API
-  description: Main API for accessing digital tools database and recommendations
-  image: https://outilsdigitaux.com/api-logo.png
-  humanUrl: https://outilsdigitaux.com/api
-  baseUrl: https://api.outilsdigitaux.com/v1
-  tags:
-  - tools
-  - digital
-  - productivity
-  - resources
-  properties:
-  - type: X-documentation
-    url: https://docs.outilsdigitaux.com
-  - type: X-openapi
-    url: https://api.outilsdigitaux.com/v1/openapi.json
-  - type: X-postman-collection
-    url: https://www.postman.com/outilsdigitaux/collections
-  - type: X-pricing
-    url: https://outilsdigitaux.com/pricing
-  - type: X-terms-of-service
-    url: https://outilsdigitaux.com/terms
-  - type: X-authentication
-    url: https://docs.outilsdigitaux.com/authentication
-  contact:
-  - FN: Outils Digitaux Support
-    email: support@outilsdigitaux.com
-    X-twitter: outilsdigitaux
-- name: Tool Categories API
-  description: API for browsing and filtering tools by categories
-  humanUrl: https://outilsdigitaux.com/api/categories
-  baseUrl: https://api.outilsdigitaux.com/v1/categories
-  tags:
-  - categories
-  - classification
-  - taxonomy
-  properties:
-  - type: X-documentation
-    url: https://docs.outilsdigitaux.com/categories
-  - type: X-openapi
-    url: https://api.outilsdigitaux.com/v1/categories/openapi.json
-- name: Tool Recommendations API
-  description: Personalized tool recommendations based on user needs and preferences
-  humanUrl: https://outilsdigitaux.com/api/recommendations
-  baseUrl: https://api.outilsdigitaux.com/v1/recommendations
-  tags:
-  - recommendations
-  - personalization
-  - ai
-  - machine-learning
-  properties:
-  - type: X-documentation
-    url: https://docs.outilsdigitaux.com/recommendations
-  - type: X-rate-limits
-    url: https://docs.outilsdigitaux.com/rate-limits
-- name: Tool Reviews API
-  description: User reviews and ratings for digital tools
-  humanUrl: https://outilsdigitaux.com/api/reviews
-  baseUrl: https://api.outilsdigitaux.com/v1/reviews
-  tags:
-  - reviews
-  - ratings
-  - feedback
-  - ugc
-  properties:
-  - type: X-documentation
-    url: https://docs.outilsdigitaux.com/reviews
-  - type: X-authentication
-    url: https://docs.outilsdigitaux.com/authentication
-maintainers:
-- FN: Outils Digitaux Team
-  email: api@outilsdigitaux.com
-  X-twitter: outilsdigitaux
-  X-github: outilsdigitaux
+description: >-
+  Outils Digitaux refers to digital tools and resources for developers,
+  designers, and digital professionals in French-speaking environments.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- digital tools
-- productivity
-- developer tools
-- design tools
-- api directory
-- saas
-- web tools
-include:
-- name: Status Page
-  url: https://status.outilsdigitaux.com
-- name: Developer Portal
-  url: https://developers.outilsdigitaux.com
-- name: Community Forum
-  url: https://community.outilsdigitaux.com
-- name: Changelog
-  url: https://outilsdigitaux.com/changelog
+  - Digital Tools
+  - Productivity
+  - France
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/outils-digitaux/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
